@@ -1,0 +1,36 @@
+
+.up,
+.middle,
+.down {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+
+  .north,
+  .europe,
+  .asia,
+  .south,
+  .africa,
+  .oceania {
+    width: 500px;  // Adjust the width as needed
+    height: auto;  // Maintain aspect ratio
+   
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .antarctica {
+   width: 700px;  // Adjust the width as needed
+   height: 170px;  // Maintain aspect ratio
+  
+   cursor: pointer;
+   transition: transform 0.2s ease-in-out;
+
+   &:hover {
+     transform: scale(1.1);
+   }
+ }
+}

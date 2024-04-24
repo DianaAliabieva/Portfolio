@@ -1,0 +1,52 @@
+@use './Variables';
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    
+    
+
+    .details {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .flag {
+        margin-right: 20px;
+
+        img {
+            margin-left: 20px;
+            height: 350px;
+            width: auto;
+            border-radius: 5px;
+        }
+    }
+
+    .info {
+            
+            margin: 0;
+
+            .pc{
+                font-weight: Variables.$Bold; 
+                font-size: 70px;
+            }
+        h1 {
+            font-weight: Variables.$Bold; 
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .currency-info,
+        .language-info {
+            margin-top: 10px;
+        }
+    }
+}
